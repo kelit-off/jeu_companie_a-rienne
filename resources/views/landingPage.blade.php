@@ -17,7 +17,7 @@
                     <span>Se souvenir de moi</span>
                 </label>
 
-                <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Se connecter</button>
+                <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" type="submit">Se connecter</button>
             </form>
 
             <div class="flex justify-center mt-4 text-sm">

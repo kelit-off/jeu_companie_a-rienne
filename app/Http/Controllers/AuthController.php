@@ -11,7 +11,9 @@ class AuthController extends Controller
 {
     public function viewRegister()
     {
-        return view('auth.register');
+        return view('auth.register', [
+            'slimHeader' => true
+        ]);
     }
 
     public function postRegister(Request $request)
@@ -38,6 +40,11 @@ class AuthController extends Controller
 
     public function postLogin(Request $request)
     {   
+        $request->validate([
+            'username' => 'required|string',
+            'password' => 'required|string',
+        ]);
+        var_dump($request->all());
         try {
             $user = User::where('username', $request->username)->first();
             if(!$user) {

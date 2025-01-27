@@ -31,8 +31,9 @@
     <meta name="twitter:description" content="@if (isset($description)) {{$description}} @endif">
     <meta name="twitter:image" content="{{asset('img/logo.png')}}">
 
-
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body class="bg-white text-black dark:bg-light_gray dark:text-white font-mono">
     @if (isset($slimHeader) && $slimHeader)
