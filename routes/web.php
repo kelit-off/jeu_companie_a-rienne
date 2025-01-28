@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\EmployeController;
 use App\Http\Controllers\LandingPageController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,4 +18,6 @@ Route::middleware('auth')->group(function () {
     // Section Jeu
     Route::get('/game', [LandingPageController::class, 'game']);
 
+    // Section Employe
+    Route::get('/game/employe', [EmployeController::class, 'viewListEmploye']);
 });

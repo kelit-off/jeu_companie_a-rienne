@@ -1,4 +1,4 @@
-<div class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto text-center bg-transparent border-r-2">
+<div class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 h-screen w-[300px] overflow-y-auto text-center bg-transparent border-r-2">
     <div class="text-gray-100 text-xl">
         <div class="p-2.5 mt-1 flex items-center">
             <h1 class="font-bold text-gray-200 text-[15px] ml-3">Air-Carrier</h1>
@@ -76,6 +76,10 @@
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
+    </div>
+    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu-employes hidden">
+        <a href="/game/employe"><h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1 w-full">Liste Employe</h1></a>
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Personal</h1>
     </div>
     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" onclick="dropdown('submenu-prestataire')">
         <i class="bi bi-chat-left-text-fill"></i>
