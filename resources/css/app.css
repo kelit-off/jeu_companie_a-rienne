@@ -8,5 +8,5 @@
 }
 
 main {
-    @apply max-w-7xl w-full ml-[300px] px-10;
+    @apply !w-full ml-[300px] px-10;
 }

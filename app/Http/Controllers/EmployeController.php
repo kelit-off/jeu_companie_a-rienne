@@ -9,7 +9,7 @@ class EmployeController extends Controller
 {
     public function viewListEmploye() {
         return view('employe.listEmploye',[
-            "ListeEmploye" => array(
+            "ListeEmployeTotal" => array(
                 array(
                     // PNT
                     "nom_poste" => "PNT",
