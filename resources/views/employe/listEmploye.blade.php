@@ -25,14 +25,32 @@
             <div class="flex row w-full justify-center">
                 <div class="my-2 mx-5 py-6 px-3 border-2 border-gray-300 rounded-lg w-4/6">
                     <h3>Charges de personnels</h3>
-                    <div class="flex row">
-                        
+                    <div class="flex row justify-between px-10 py-5">
+                        <div>
+                            <h2 class="text-sm">Montant Brut</h2>
+                            <span class="text-4xl">500 000</span>
+                        </div>
+                        <div>
+                            <h2 class="text-sm">Taux actuel des cotisations</h2>
+                            <span class="text-4xl">500 000</span>
+                        </div>
+                        <div>
+                            <h2 class="text-sm">Montant à régler lundi prochain</h2>
+                            <span class="text-4xl">500 000</span>
+                        </div>
                     </div>
                 </div>
                 <div class="my-2 mx-5 py-6 px-3 border-2 border-gray-300 rounded-lg w-2/6">
                     <h3>Autre (Administratif)</h3>
-                    <div class="flex row">
-
+                    <div class="flex row justify-between px-10 py-5">
+                        <div>
+                            <h2 class="text-sm">Nombre total d'employes</h2>
+                            <span class="text-4xl">200</span>
+                        </div>
+                        <div>
+                            <h2 class="text-sm">Salaires administrateur</h2>
+                            <span class="text-4xl">500 000</span>
+                        </div>
                     </div>
                 </div>
             </div>

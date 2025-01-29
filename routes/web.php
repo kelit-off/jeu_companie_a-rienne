@@ -20,4 +20,5 @@ Route::middleware('auth')->group(function () {
 
     // Section Employe
     Route::get('/game/employe', [EmployeController::class, 'viewListEmploye']);
+    Route::get('/game/employe/gestion', [EmployeController::class, "viewGestionEmploye"]);
 });

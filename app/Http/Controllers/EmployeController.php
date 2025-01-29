@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 
 class EmployeController extends Controller
-{
+{   
     public function viewListEmploye() {
         return view('employe.listEmploye',[
             "ListeEmployeTotal" => array(
@@ -32,11 +32,11 @@ class EmployeController extends Controller
         ]);
     }
 
-    public function viewEmbacheEmploye() {
-        return view('employe.embaucheEmploye');
+    public function viewGestionEmploye() {
+        return view('employe.gestionEmploye');
     }
 
-    public function postEmbaucheEmploye(Request $request) {
+    public function postGestionEmploye(Request $request) {
         
     }
 

@@ -79,7 +79,7 @@
     </div>
     <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu-employes hidden">
         <a href="/game/employe"><h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1 w-full">Liste Employe</h1></a>
-        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Personal</h1>
+        <a href="/game/employe/gestion"><h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1"></h1></a>
     </div>
     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" onclick="dropdown('submenu-prestataire')">
         <i class="bi bi-chat-left-text-fill"></i>
