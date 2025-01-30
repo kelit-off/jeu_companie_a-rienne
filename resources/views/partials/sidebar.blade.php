@@ -10,10 +10,10 @@
         <i class="bi bi-search text-sm"></i>
         <input type="text" placeholder="Search" class="text-[15px] ml-4 w-full bg-transparent focus:outline-none"/>
     </div>
-    <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
+    <a class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" href="/game">
         <i class="bi bi-house-door-fill"></i>
-        <span class="text-[15px] ml-4 text-gray-200 font-bold">Home</span>
-    </div>
+        <span class="text-[15px] ml-4 text-gray-200 font-bold">Acceuil</span>
+    </a>
     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" onclick="dropdown('submenu-reseau')">
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
@@ -23,7 +23,7 @@
             </span>
         </div>
     </div>
-    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu-reseau hidden">
+    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu submenu-reseau hidden">
         <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Social</h1>
         <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Personal</h1>
         <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Friends</h1>
@@ -77,9 +77,9 @@
             </span>
         </div>
     </div>
-    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu-employes hidden">
-        <a href="/game/employe"><h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1 w-full">Liste Employe</h1></a>
-        <a href="/game/employe/gestion"><h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1"></h1></a>
+    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu submenu-employes hidden">
+        <a href="/game/employe"><h1 class="p-2 hover:bg-blue-600 rounded-md mt-1 w-full">Liste Employe</h1></a>
+        <a href="/game/employe/gestion" class="mt-1"><h1 class="p-2 hover:bg-blue-600 rounded-md">Embauche Employe</h1></a>
     </div>
     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" onclick="dropdown('submenu-prestataire')">
         <i class="bi bi-chat-left-text-fill"></i>
@@ -90,6 +90,11 @@
             </span>
         </div>
     </div>
+    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu submenu-prestataire hidden">
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Social</h1>
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Personal</h1>
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Friends</h1>
+    </div>
     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white" onclick="dropdown('submenu-cargo')">
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
@@ -99,21 +104,14 @@
             </span>
         </div>
     </div>
+    <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold submenu submenu-cargo hidden">
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Social</h1>
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Personal</h1>
+        <h1 class="cursor-pointer p-2 hover:bg-blue-600 rounded-md mt-1">Friends</h1>
+    </div>
     <div class="my-4 bg-gray-600 h-[1px]"></div>
     <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
         <i class="bi bi-box-arrow-in-right"></i>
         <span class="text-[15px] ml-4 text-gray-200 font-bold">Logout</span>
     </div>
 </div>
-
-    <script type="text/javascript">
-      function dropdown(submenu) {
-        document.querySelector("."+submenu).classList.toggle("hidden");
-        document.querySelector("#arrow").classList.toggle("rotate-0");
-      }
-      dropdown();
-
-      function openSidebar() {
-        document.querySelector(".sidebar").classList.toggle("hidden");
-      }
-    </script>
