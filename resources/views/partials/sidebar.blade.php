@@ -18,7 +18,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Reseau</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -36,7 +36,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Gestion de flotte</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -45,7 +45,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Marche</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -54,7 +54,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Finance</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -63,7 +63,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Analyses</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -72,7 +72,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Employés</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -85,7 +85,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Prestataire</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>
@@ -99,7 +99,7 @@
         <i class="bi bi-chat-left-text-fill"></i>
         <div class="flex justify-between w-full items-center">
             <span class="text-[15px] ml-4 text-gray-200 font-bold">Cargo</span>
-            <span class="text-sm rotate-180" id="arrow">
+            <span class="text-sm" id="arrow">
                 <i class="bi bi-chevron-down"></i>
             </span>
         </div>

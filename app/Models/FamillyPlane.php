@@ -8,6 +8,7 @@ class FamillyPlane extends Model
 {
     protected $fillable = [
         "name",
-        "image"
+        "image",
+        "available_motor",
     ];
 }

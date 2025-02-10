@@ -11,8 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('f_lottes', function (Blueprint $table) {
+        Schema::create('flottes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->int('family_id');
+            $table->int('plane_id');
+            $table->int('motor_id');
             $table->timestamps();
         });
     }
